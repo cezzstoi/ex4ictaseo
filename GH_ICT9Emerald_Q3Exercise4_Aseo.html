@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<title>Q3 Exercise 3</title>
+	<style>
+		img {
+			height: 200px;
+			width: 150px;
+		}
+		body {
+			font-family: Poppins;
+		}
+	</style>
+</head>
+<body>
+	<div class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+		<a href="#" class="navbar-brand text-light">xPzour-Ztch</a>
+		<ul class="navbar-nav">
+			<li class="navbar-item">
+				<a href="https://www.facebook.com" class="nav-link">Facebook</a>
+			</li>
+			<li class="navbar-item">
+				<a href="https://www.instagram.com" class="nav-link">Instagram</a>
+			</li>
+			<li class="navbar-item">
+				<a href="https://www.netflix.com/browse" class="nav-link">Netflix</a>
+			</li>
+			<li class="navbar-item">
+				<a href="https://twitter.com/home?lang=en" class="nav-link">Twitter</a>
+			</li>
+		</ul>
+	</div>
+<table class="table table-bordered table-hover">
+        <tr>
+            <td><center>Football</center></td>
+            <td><center>Basketball</center></td>
+            <td><center>Swimming</center></td>
+            <td><center>Volleyball</center></td>
+        </tr>
+        <tr>
+            <td class="bg-secondary"><center><img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg" class="rounded"></center></td>
+            <td class="bg-warning"><center><img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/LeBron_James_-_51959723161_%28cropped%29.jpg" class="rounded-circle"></center></td>
+            <td class="bg-primary"><center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Michael_Phelps_Rio_Olympics_2016.jpg/800px-Michael_Phelps_Rio_Olympics_2016.jpg" class="rounded"></center></td>
+            <td class="bg-danger"><center><img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Karch_Kiraly_2014.jpg" class="rounded-circle"></center></td>
+        </tr>
+        <tr>
+            <td>Lionel Messi</td>
+            <td>LeBron James</td>
+            <td>Michael Phelps</td>
+            <td>Karch Kiraly</td>
+        </tr>
+        <tr> 
+        	<td>Argentine professional footballer and is the captain of the Argentina National Team.</td>
+            <td>American professional basketball player and plays for the LA Lakers of the NBA.</td>
+            <td>American former competitive swimmer and is the most decorated Olympian with 28 medals.</td>
+            <td>American volleyball player and was a central part of the US National Team.</td>
+        </tr>
+        <tr>
+            <td>Net Worth: $620 million</td>
+            <td>Net Worth: $1 billion</td>
+            <td>Net Worth: $100 million</td>
+            <td>Net Worth: $2 million</td>
+        </tr>
+    </table>
+    <form class="form-group">
+    	Which do you think is the most popular athlete out of the 4?<br>
+<div class="form-check bg-secondary">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input">Lionel Messi
+			</label>
+		</div>
+		<div class="form-check  bg-warning">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input">LeBron James
+			</label>
+		</div>
+		<div class="form-check bg-primary">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input">Michael Phelps
+			</label>
+		</div>
+		<div class="form-check bg-danger">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input">Karch Kiraly
+			</label>
+		<br>
+		</div><br>
+		What sport do they play?<br>
+		<select class="form-control bg-info">
+			<option> Football</option>
+			<option> Basketball</option>
+			<option> Swimming</option>
+			<option> Volleyball</option>
+		</select><br>
+	<div>Add An Athlete!! Wanna see your favorite artist? Fill out the form below!<br><br>
+		Name of Athlete: <input type="text" name="name" class="form-control"><br>
+		Sports Played (Professionally): <input type="text" name="sport" class="form-control"><br>
+		Date of Birth: <input type="date" name="birthdate" class="form-control"><br>
+		Gender:<br>
+		Female <input type="radio" name="gender"><br>
+		Male <input type="radio" name="gender">
+		<br>
+		Enter Athlete Photo:
+		<input type="file" value="Submit Athlete Photo" class="btn btn-primary btn-outline-danger btn-sm"><br><br>
+		<input type="submit" value="Submit Athlete Info" class="btn btn-danger btn-outline-primary btn-sm"><br>
+		Thank You For Filling Out The Form!
+	</div>
+    </form>
+</body>
+</html>
